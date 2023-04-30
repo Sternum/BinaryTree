@@ -15,6 +15,15 @@ tree.Add(15);
 tree.Add(30);
 tree.Add(25);
 tree.Add(40);
+tree.Add(100);
+tree.Add(99);
+tree.Add(76);
+tree.Add(43);
+tree.Add(12);
+tree.Add(23);
+tree.Add(89);
+tree.Add(70);
+tree.Add(69);
 
-tree.Remove(5);
+tree.Remove(25);
 tree.PrintInOrder();

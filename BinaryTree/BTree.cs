@@ -50,6 +50,7 @@ namespace BinaryTree
         public void Remove(int value)
         {
             BTreeNode node = Find(value);
+            if (node == null) return;
             BTreeNode successor = FindSuccessor(node);
             node.Value = successor.Value;
             Delete(root, successor);
